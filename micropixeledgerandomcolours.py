@@ -1,4 +1,6 @@
+from microbit import *
 from random import randint
+import neopixel
 
 # Setup the Neopixel strip on pin0 with a length of 10 pixels
 np = neopixel.NeoPixel(pin0, 10)
